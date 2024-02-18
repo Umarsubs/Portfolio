@@ -1,0 +1,69 @@
+@font-face {
+  font-family: KodeMono;
+  src: url(KodeMono.woff2);
+}
+
+body{
+  background: src("/Umar.png");
+  margin: 0px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#container{
+  background-color: black;
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+}
+
+h1{
+  color: white;
+  background-color: #5b69dc;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h2{
+  color: white;
+  background-color: #5b69d2;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border-radius: 10px;
+}
+
+p{
+  color: white;
+  font-family: 'KodeMono';
+  text-align: center;
+}
+
+a{
+  color: #5b69dc;
+  text-decoration: none;
+}
+
+#Umar-Pic{
+  position: absolute;
+  left: 58%;
+  top: 100px;
+  border: 5px solid #5b69dc;
+  border-radius: 50%;
+}
+
+#discord{
+  position: absolute;
+  max-width: 50px;
+  left: 300px;
+  bottom: 20px;
+}
+
+#youtube{
+  position: absolute;
+  max-width: 50px;
+  left: 200px;
+  bottom: 20px;
+}
